@@ -5,7 +5,7 @@ A simple, **secure**, and **offline** CLI-based password manager that ensures **
 ## 🚀 Features  
 - **100% Offline Storage** – All passwords are stored locally in an encrypted format.  
 - **Unbreakable Encryption** – Uses an **enhanced unbreakable encryption algorithm** to protect your data.  
-- **Auto-Creates Secure Storage** – Generates a **local database** , preventing data loss.  
+- **Auto-Creates Secure Storage** – Generates a **local file system instead of a database** , preventing data loss or hacking.  
 - **Fast & Lightweight** – No unnecessary UI, just a clean CLI for quick access.  
 - **No Internet Dependency** – Unlike online password managers, your credentials never leave your machine.  
 
@@ -34,7 +34,14 @@ A simple, **secure**, and **offline** CLI-based password manager that ensures **
 ---
 
 ## 📝 Notes
-If dashboard.exe does not run, check if your antivirus is blocking it
+### Hobby Project Disclaimer  
+This is a hobby project and comes with **no guarantees** for the security or safety of your stored passwords. Use it **at your own risk**.  
+
+### Do Not Delete Critical Files  
+Do **not delete `data.txt` or the `accounts/` folder**, even by mistake. They serve as the **database** and are necessary for storing your passwords. If deleted, all stored data will be lost permanently.  
+
+### Antivirus Warning  
+If `dashboard.exe` does not run, check if your **antivirus** is blocking it.  
 
 ---
 
