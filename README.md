@@ -1,4 +1,4 @@
-# 🔐 Password Manager CLI for Windows
+# 🔐 PassVault for Windows
 
 A simple, **secure**, and **offline** CLI-based password manager that ensures **your data stays on your system**—no cloud, no tracking, no risk of breaches.  
 
